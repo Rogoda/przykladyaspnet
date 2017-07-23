@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "List";
+    Layout = null;
+}
+
+<h3>To jest widok /Views/Common/List.cshtml</h3>
+
+@Html.Partial("MyStronglyTypedPartial", new[] { "Jabłka", "Pomarańcze", "Gruszki" })
+
+@Html.Action("Time")

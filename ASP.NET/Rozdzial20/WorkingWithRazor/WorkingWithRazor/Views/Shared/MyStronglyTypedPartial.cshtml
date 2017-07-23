@@ -1,0 +1,10 @@
+﻿@model IEnumerable<string>
+
+<div>
+    To jest komunikat z widoku częściowego.
+    <ul>
+        @foreach (string str in Model) {
+            <li>@str</li>
+        }
+    </ul>
+</div>

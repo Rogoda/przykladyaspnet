@@ -1,0 +1,8 @@
+﻿@model MvcModels.Models.AddressSummary
+@{
+    ViewBag.Title = "DisplaySummary";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Adres</h2>
+<div><label>Miasto:</label>@Html.DisplayFor(m => m.City)</div>
+<div><label>Kraj:</label>@Html.DisplayFor(m => m.Country)</div>
